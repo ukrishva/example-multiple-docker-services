@@ -2,12 +2,13 @@
 
 ## Folder Structure
 
+```text
 /your-repo
 ├── service-a/
 │   ├── app/
 │   │   └── app.py
 │   ├── .env
-│   ├── .env.template  # Template for environment variables
+│   ├── .env.template
 │   ├── requirements.txt
 │   └── Dockerfile
 │
@@ -15,11 +16,12 @@
 │   ├── app/
 │   │   └── app.py
 │   ├── .env
-│   ├── .env.template  # Template for environment variables
+│   ├── .env.template
 │   ├── requirements.txt
 │   └── Dockerfile
 │
 └── docker-compose.yml
+```
 
 ## Setup Instructions
 
